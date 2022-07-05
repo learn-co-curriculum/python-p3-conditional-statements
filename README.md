@@ -35,8 +35,8 @@ perform control flow using **conditional statements** with the `if/else` and
 `try/except` keywords. We will also discuss how Python approaches `switch/case`
 statements.
 
-Make sure to code along with the Python examples in IRB to help get a feel for the
-syntax.
+Make sure to code along with the Python examples in the Python shell to help
+get a feel for the syntax.
 
 ***
 
