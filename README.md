@@ -2,9 +2,30 @@
 
 ## Learning Goals
 
-- Conditionally execute code with `if/else` statements
-- Handle exceptions using `try/except` statements
-- Use dictionary mapping to handle `switch/case` logic
+- Conditionally execute code with `if/else` statements.
+- Handle exceptions using `try/except` statements.
+- Use dictionary mapping to handle `switch/case` logic.
+
+***
+
+## Key Vocab
+
+- **Interpreter**: a program that executes other programs. Python programs
+require the Python interpreter to be installed on your computer so that they
+can be run.
+- **Python Shell**: an interactive interpreter that can be accessed from the
+command line.
+- **Data Type**: a specific kind of data. The Python interpreter uses these
+types to determine which actions can be performed on different data items.
+- **Exception**: a type of error that can be predicted and handled without
+causing a program to crash.
+- **Code Block**: a collection of code that is interpreted together. Python
+groups code blocks by indentation level.
+- **Function**: a named code block that performs a sequence of actions when it
+is called.
+- **Scope**: the area in your program where a specific variable can be called.
+
+***
 
 ## Introduction
 
@@ -16,6 +37,8 @@ statements.
 
 Make sure to code along with the Python examples in IRB to help get a feel for the
 syntax.
+
+***
 
 ## `if/else` Statements
 
@@ -58,6 +81,8 @@ elif dog == "cuddly":
 else:
     owner = "Reading newspaper."
 ```
+
+***
 
 ## Truthy/Falsy Values
 
@@ -134,6 +159,8 @@ conditional statement. It may seem like a pain at first, but it helps to
 prevent unexpected exceptions and `None`s as you continue to build your
 application.
 
+***
+
 ## `try/except` Statements
 
 Throughout our Python assignments so far, we have seen a number of different
@@ -202,6 +229,8 @@ exception has been thrown.
 > occur before `divide()` starts working, they cannot be handled with a
 > `try/except` statement inside of `divide()`.
 
+***
+
 ## Dictionary Mapping
 
 Unlike JavaScript, Python does not have `switch/case` statements. Python can
@@ -244,7 +273,8 @@ switch (dog) {
 This `switch/case` statement takes the status of the `dog` as a string and sets
 the state of the owner accordingly.
 
-Let's take a look at how we might do that with an `if/else` statement in Python:
+Let's take a look at how we might do that with an `if/elif/else` statement in
+Python:
 
 ```py
 # Python
@@ -285,8 +315,10 @@ owner = dict_map.get(dog, "Reading newspaper.")
 This approach is _very_ concise, but the mapping dictionary itself is not so
 intuitive to read; as we can see, the keys describe the state of the `dog`
 while the values describe the state of the `owner`. Dictionary mapping is a
-valuable tool for long lists of conditions, but `if/else` statements are
+valuable tool for long lists of conditions, but `if/elif/else` statements are
 typically the preferred method for handling `switch/case` logic in Python.
+
+***
 
 ## Instructions
 
@@ -364,6 +396,8 @@ calculator("nope", 4, 2)
 # None
 ```
 
+***
+
 ## Conclusion
 
 Since you're already familiar with these control flow structures from
@@ -374,8 +408,11 @@ advantage of some of Python's unique features in your own code.
 
 One excellent resource for familiarizing yourself with the syntax and the
 coding standards for Python developers is the
-[PEP 8 - Style Guide for Python Code][PEP 8]. Make sure to bookmark this resource and
-refer to it if you're ever unsure how to format a particular block of code.
+[PEP 8 - Style Guide for Python Code][PEP 8]. Make sure to bookmark this
+resource and refer to it if you're ever unsure how to format a particular block
+of code.
+
+***
 
 ## Resources
 
