@@ -64,9 +64,9 @@ class TestFizzBuzz:
 
     def test_returns_num_multiple_not_3_or_5(self):
         '''returns num for num=2, num=13, num=59'''
-        assert(fizzbuzz(2) == "2")
-        assert(fizzbuzz(13) == "13")
-        assert(fizzbuzz(59) == "59")
+        assert(fizzbuzz(2) == 2)
+        assert(fizzbuzz(13) == 13)
+        assert(fizzbuzz(59) == 59)
 
 class TestCalculator:
     '''calculator() in control_flow.py'''
