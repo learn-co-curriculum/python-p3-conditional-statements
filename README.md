@@ -364,8 +364,7 @@ hows_the_weather(75)
 Write a function `fizzbuzz()` takes in a number. For multiples of three, return
 "Fizz" instead of the number. For the multiples of five, return "Buzz". For
 numbers which are multiples of both three and five, return "FizzBuzz". For
-all other numbers, just return the number itself as a string (using the `str()`
-constructor).
+all other numbers, just return the number itself.
 
 ```py
 fizzbuzz(1)

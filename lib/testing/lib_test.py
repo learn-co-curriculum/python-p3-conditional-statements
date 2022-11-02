@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from lib.control_flow import admin_login, hows_the_weather, fizzbuzz, calculator
+from control_flow import admin_login, hows_the_weather, fizzbuzz, calculator
 
 import io
 import sys
