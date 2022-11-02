@@ -24,7 +24,7 @@ def fizzbuzz(num):
     elif not num % 3:
         return "Fizz"
     
-    return str(num)
+    return num
 
 def calculator(operation, num1, num2):
     if operation == "+":
