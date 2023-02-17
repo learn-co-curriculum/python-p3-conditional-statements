@@ -1,4 +1,4 @@
-# Control Flow: Conditional Statements
+# Control Flow: Conditional Statements.
 
 ## Learning Goals
 
